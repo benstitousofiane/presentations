@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: white;
+}
+main{
+    margin: 0px 150px 0px 150px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* transition: 1s; */
+}
+main div{
+    font-size: 185px;
+    margin: 20px;
+    transition: 1s;
+}
+main div#left{
+    font-size: 0px;
+}

@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+}
+main{
+    margin: 0px 175px 0px 175px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main div{
+    font-size: 120px;
+    margin: 20px;
+    transition: 1s;
+}
